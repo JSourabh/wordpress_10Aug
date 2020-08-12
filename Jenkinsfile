@@ -3,8 +3,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-		sh sudo mkdir /var/www/html/wors
-		sh cp -r * /var/www/html/wors/
                 echo 'Building..'
             }
         }
